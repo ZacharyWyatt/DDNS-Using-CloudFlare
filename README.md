@@ -12,9 +12,7 @@ This script depends on:
 
 Once your domain is added to CloudFlare, you'll need to create [API tokens](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys).
 This token that you'll use for this script just needs read access.
-```
 ![Image of Token Permissions at CloudFlare](https://github.com/ZacharyWyatt/DDNS-Using-CloudFlare/blob/main/cf-permissions.jpg?raw=true)
-```
 
 Once you have this script downloaded, you'll adjust the following variables within it:
 - **working_dir** - The directory that you will be running the script from [e.g. /home/myuser/scripts/]
