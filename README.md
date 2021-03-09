@@ -36,6 +36,8 @@ Once you have the script downloaded, you'll adjust the following variables withi
 - **proxied** - Should the domain name we are using for DDNS be proxied through CloudFlare? True or false
 - **get_pub_ip_url** - The URL the script should visit to get your public IP address
 - **cf_api_token** - the API token you generated at CloudFlare [e.g. "example-bj6bME6KEu1Bfny6eNwJMVJBEf0PRyZl"]
+
+**If you make public your own changes to this script, be absolutely certain not to include your actual API token.**
 - **cf_api_url** - Your CloudFlare API endpoint URL
 
 There are serveral sites you can use for the value of **get_pub_ip_url**. As long as `curl $get_pub_ip_url` returns only an IP address, the URL can be used for this variable. Here's some such URLs that I know of:
