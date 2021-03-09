@@ -11,9 +11,9 @@ This script depends on:
 - api.cloudflare.com being available
 
 Once your domain is added to CloudFlare, you'll need to create [API tokens](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys).
-This token that you'll use for this script just needs [whatever] access.
+This token that you'll use for this script just needs read access.
 ```
-<image>
+![Image of Token Permissions at CloudFlare](https://github.com/ZacharyWyatt/DDNS-Using-CloudFlare/blob/main/cf-permissions.jpg?raw=true)
 ```
 
 Once you have this script downloaded, you'll adjust the following variables within it:
@@ -36,10 +36,8 @@ http://api.ipify.org
 
 The CloudFlare API endpoint URL is structured like hxxps://api.cloudflare.com/client/v4/zones/**Zone ID**/dns_records/**DNS Record ID**
 
-You can get your **Zone ID** from the domain overview in CloudFlare.
-```
-<image?>
-```
+You can get your **Zone ID** from the domain's overview in CloudFlare.
+
 For the individual **DNS record ID**, you can get it by running the following command, substituting your own **Zone ID**, **domain name**, and **API token**.
 ```
 curl -X GET "https://api.cloudflare.com/client/v4/zones/(Zone ID)/dns_records/dns_records?name=example.com" \
