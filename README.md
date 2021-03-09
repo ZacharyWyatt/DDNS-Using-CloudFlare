@@ -1,5 +1,5 @@
 # DDNS-Using-CloudFlare
-This script will get the public IP address of the machine that it is ran from, compare that IP to the value of an A record at CloudFlare, and update the A record if the public IP has changed.
+This script allows you to set up a Dynamic DNS record at CloudFlare. It will get the public IP address of the machine that it is ran from, compare that IP to the value of an A record at CloudFlare, and update the A record if the public IP has changed.
 
 This guide assumes that you have the following:
 - A Linux machine on your local network
