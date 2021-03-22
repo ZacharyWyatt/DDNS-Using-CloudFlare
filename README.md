@@ -26,7 +26,7 @@ Create a directory for the script to run in, download it, and adjust permissions
 ```
 mkdir /home/myuser/cf-ddns/
 cd /home/myuser/cf-ddns/
-git clone [URL]
+git clone https://github.com/ZacharyWyatt/DDNS-Using-CloudFlare .
 chmod 700 cf-ddns.sh
 ```
 
