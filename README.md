@@ -18,7 +18,7 @@ The steps to set this script up are as follows.
 ## 1) CloudFlare API Token
 
 Once your domain is added to CloudFlare, you'll need to create [API tokens](https://support.cloudflare.com/hc/en-us/articles/200167836-Managing-API-Tokens-and-Keys).
-This token that you'll use for this script just needs read access.
+This token that you'll use for this script just needs read access to the DNS zone.
 ![Image of Token Permissions at CloudFlare](https://github.com/ZacharyWyatt/DDNS-Using-CloudFlare/blob/main/cf-permissions.jpg?raw=true)
 
 ## 2) Downloading and Configuring the Script
